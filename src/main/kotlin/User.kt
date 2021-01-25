@@ -3,7 +3,7 @@ class User(
     name: String,
     email: String,
     contacts: List<Contact>,
-    blocked_users: List<Int>,
-    chats_with_user: List<Int>,
+    blocked_users: Set<Int>,
+    chats_ids: Set<Int>,
     pending_invites: List<ChatInvite>
 )

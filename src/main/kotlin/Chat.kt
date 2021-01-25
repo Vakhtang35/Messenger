@@ -1,8 +1,9 @@
 class Chat(
     id: Int,
     name: String,
-    owner: Int,
-    messages: MutableSet<String>,
+    ownerId: Int,
+    messagesIds: List<Int>,
+    participantsIds: List<Int>,
     joinPolicy: JoinPolicy
 ) {
     enum class JoinPolicy {

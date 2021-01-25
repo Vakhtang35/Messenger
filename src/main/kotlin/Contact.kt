@@ -1,5 +1,4 @@
 class Contact(
-    id: Int,
-    user: User,
+    userId: Int,
     displayedName: String
 )
