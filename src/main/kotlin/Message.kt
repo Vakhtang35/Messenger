@@ -3,6 +3,6 @@ class Message(
     text: String,
     senderId: Int,
     receiverId: Int,
-   // attachements:
+    sentTime: Int,
     deleted: Boolean
 )
